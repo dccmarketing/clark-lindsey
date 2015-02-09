@@ -26,7 +26,8 @@
 	}
 
 	@media only screen and (min-width: $bp__header2+1) {
-		width 		: initial;
+		width: auto;
+		width: initial;
 	}
 }
 
@@ -116,8 +117,8 @@
 }
 
 .othersmed {
-	display: inline-block;
-	width: 32%;
+	display 	: inline-block;
+	width 		: 32%;
 
 	@media only screen and (min-width: $bp__logos+2) {
 		width: inherit;
